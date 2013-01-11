@@ -3,7 +3,7 @@
 Author: Shou
 Copyright: Shou 2013
 License: Creative Commons Attribution 3.0 Unported License; See: http://creativecommons.org/licenses/by/3.0/
-Version: 0.4
+Version: 0.4.1
 
 */
 
@@ -70,9 +70,8 @@ h5 {
 }
 
 /* Links */
-/* XXX: Don't !important this, it changes grayed out links. */
-.content a {
-    color: #5787B5;
+.notifications .content a {
+    color: #5787B5 !important;
 }
 
 #topics li.cf:hover,
