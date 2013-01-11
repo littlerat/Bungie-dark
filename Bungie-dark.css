@@ -3,7 +3,7 @@
 Author: Shou
 Copyright: Shou 2013
 License: Creative Commons Attribution 3.0 Unported License; See: http://creativecommons.org/licenses/by/3.0/
-Version: 0.4.1
+Version: 0.4.7
 
 */
 
@@ -139,7 +139,8 @@ div.main {
 }
 
 blockquote,
-div.gated:hover {
+div.gated:hover,
+.spoiler {
     border-color: #2d2d2d #2d2d2d #2d2d2d #0096DB !important;
 }
 
@@ -196,6 +197,48 @@ div.gated:hover {
 
 #NewsFeed h1 a {
     color: #d0d0d0 !important;
+}
+
+/* Spoilers */
+.forumPost .spoiler {
+    background-color: #1f1f1f !important;
+    color: transparent !important;
+    border-width: 1px 1px 1px 3px !important;
+}
+
+.forumPost .spoiler.opened {
+    color: #d0d0d0 !important;
+    border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d !important;
+}
+
+.forumPost .spoiler:after {
+    color: #d0d0d0 !important;
+    background-color: #1f1f1f !important;
+}
+
+/* User info popup */
+.extraInfo_user,
+.extraInfo_user .btns {
+    background-color: #101010 !important;
+    box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.05), 0 0 2px 0 rgba(255, 255, 255, 0.1) inset !important;
+    border-color: #2d2d2d !important;
+}
+
+.extraInfo_user .btns {
+    box-shadow: 0 0 8px rgba(255,255,255,0.1) !important;
+}
+
+.extraInfo_user .btns a {
+    color: #DDD !important;
+    text-shadow: 0 0 3px black !important;
+}
+
+.extraInfo_user .content p {
+    text-shadow: 0 0 1px black !important;
+}
+
+.extraInfo_user .content h2 a {
+    color: white !important;
 }
 
 }
