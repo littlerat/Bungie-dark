@@ -9,4 +9,7 @@ A dark userstyle for Bungie.next.
 2. Copy paste [the CSS](https://raw.github.com/Shou-/Bungie-dark/master/Bungie-dark.css) into it and name it whatever.
 3. Save, and you're done.
 
+## Example
+<img src=http://i.imgur.com/EWsO1.jpg />
+
 Note: Hasn't been tested in Chrome.
