@@ -1,4 +1,3 @@
-
 /*
 
 Author: Shou
@@ -23,12 +22,14 @@ body,
 .container_body,
 .header_body {
     background: -moz-linear-gradient(left center , #101010 8%, #2d2d2d 60%) repeat scroll 0 0 transparent !important;
+    background: -webkit-linear-gradient(left center , #101010 8%, #2d2d2d 60%) repeat scroll 0 0 transparent !important;
 }
 
 .column,
 .side,
 .left {
     background: -moz-linear-gradient(left center , rgba(255,255,255,0.05) 18%, transparent 60%) repeat scroll 0 0 transparent !important;
+    background: -webkit-linear-gradient(left center , rgba(255,255,255,0.05) 18%, transparent 60%) repeat scroll 0 0 transparent !important;
 }
 
 #nav_groups a,
