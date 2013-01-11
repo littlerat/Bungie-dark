@@ -12,4 +12,4 @@ A dark userstyle for Bungie.next.
 ## Example
 <img src=http://i.imgur.com/EWsO1.jpg />
 
-Note: Hasn't been tested in Chrome.
+Note: Hasn't been tested in Chrome. Or pretty much anywhere. It might be terrible.
