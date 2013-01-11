@@ -3,7 +3,7 @@
 Author: Shou
 Copyright: Shou 2013
 License: Creative Commons Attribution 3.0 Unported License; See: http://creativecommons.org/licenses/by/3.0/
-Version: 0.2
+Version: 0.3
 
 */
 
@@ -15,7 +15,10 @@ body,
 .post,
 .forumPost,
 .header_post,
-#topics li.cf {
+#topics li.cf
+.Nav_Top .panel,
+.Nav_Top .section,
+.Nav_Top .panel .link {
     background-color: #101010 !important;
     color: #d0d0d0 !important;
 }
@@ -35,12 +38,22 @@ body,
     background-image: linear-gradient(left, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
 }
 
+h5 {
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0.0.5) 18%, transparent 60%) !important;
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
+    background-image: linear-gradient(bottom, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
+    background-color: #1f1f1f !important;
+}
+
 #nav_groups a,
 #nav_tags .link,
 #nav_tags h4,
+#nav_mycommunity a,
 .post_body,
 .forumPost article h1 a,
-#searchedTag {
+#searchedTag,
+.header,
+.container_section a {
     color: #d0d0d0 !important;
 }
 
@@ -52,7 +65,8 @@ div.gated,
 .container_textbox,
 .container_textfield,
 .container_sort,
-#text_search {
+#text_search,
+.dualColList {
     background-color: #1f1f1f !important;
     color: #d0d0d0 !important;
 }
@@ -67,6 +81,14 @@ div.main {
 
 .container_sort .sort li.on {
     background-color: #0096DB !important;
+}
+
+.Nav_Top .panel .link {
+    border-color: #2d2d2d !important;
+}
+
+.Nav_Top .panel .link {
+    box-shadow: 0 0 0 1px rgba(16, 16, 16, 0.98) inset !important;
 }
 
 .container_sort .sort {
@@ -96,6 +118,10 @@ div.gated:hover {
 
 .authorInfo a {
     color: #3579a8 !important;
+}
+
+.spinner {
+    background-color: transparent !important;
 }
 
 }
