@@ -21,15 +21,17 @@ body,
 
 .container_body,
 .header_body {
-    background: -moz-linear-gradient(left center , #101010 8%, #2d2d2d 60%) repeat scroll 0 0 transparent !important;
-    background: -webkit-linear-gradient(left center , #101010 8%, #2d2d2d 60%) repeat scroll 0 0 transparent !important;
+    background-image: -moz-linear-gradient(left, #101010 8%, #2d2d2d 60%) !important;
+    background-image: -webkit-linear-gradient(left, #101010 8%, #2d2d2d 60%) !important;
+    background-image: linear-gradient(left, #101010 8%, #2d2d2d 60%) !important;
 }
 
 .column,
 .side,
 .left {
-    background: -moz-linear-gradient(left center , rgba(255,255,255,0.05) 18%, transparent 60%) repeat scroll 0 0 transparent !important;
-    background: -webkit-linear-gradient(left center , rgba(255,255,255,0.05) 18%, transparent 60%) repeat scroll 0 0 transparent !important;
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
+    background-image: linear-gradient(left, rgba(255,255,255,0.05) 18%, transparent 60%) !important;
 }
 
 #nav_groups a,
@@ -44,8 +46,8 @@ body,
 #topics li.cf:hover,
 blockquote,
 div.gated,
-#topicReply input,
-#topicReply textarea,
+.container_textbox input,
+.container_textfield textarea,
 .container_textbox,
 .container_textfield,
 .container_sort,
